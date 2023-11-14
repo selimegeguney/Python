@@ -35,6 +35,9 @@ my_id = {'name': 'Selim', 'age': 19, 'number': 1234567890, 'email': 'example@exa
 
 print('\n*********\n')
 
+for item in my_id.items():
+    print('My', item[0], 'is', item[0])
+
 for key, value in my_id.items():
     if (type(value)==str):
         print('My', key, 'is', value)
