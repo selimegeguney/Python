@@ -6,3 +6,13 @@ if student["age"] > 20:
     print("Old student")
 else:
     print("Young student")
+print("\n***************\n")
+def tell_me_if_student_id_old(x):
+    if x["age"] > 20:
+        print("Old student")
+    else:
+        print("Young student")
+
+tell_me_if_student_id_old(student)
+tell_me_if_student_id_old(student2)
+tell_me_if_student_id_old(student3)
