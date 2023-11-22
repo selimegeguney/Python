@@ -1,3 +1,5 @@
+import math
+
 student = {"name": "Selim","age":19}
 student2 = {"name": "Peter","age":20}
 student3 = {"name": "Mark","age":21}
@@ -47,5 +49,17 @@ print(is_dividable(10, 2))
 
 print(is_dividable(10, 3))
 
+print("\n------------------\n")
 
+def print_bigger(x, y):
+    print(max(x, y))
 
+print_bigger(10, 20)
+
+print("\n------------------\n")
+
+def return_bigger(x, y):
+    return max(x, y)
+
+bigger = return_bigger(3.14, 1.789*2)
+print(bigger)
