@@ -36,13 +36,17 @@ my_id = {'name': 'Selim', 'age': 19, 'number': 1234567890, 'email': 'example@exa
 print('\n*********\n')
 
 for item in my_id.items():
-    print('My', item[0], 'is', item[0])
+    print('My', item[0], 'is', item[1])
 
 for key, value in my_id.items():
     if (type(value)==str):
         print('My', key, 'is', value)
     if (type(value)==list):
         print('My', key, 'are', ', '.join(value))
+
+set1 = set("a","c","b")
+
+print(set1)
 
 
 
